@@ -1,0 +1,225 @@
+/*--------------------------------------------------------------
+Elementor extra widgets
+-------------------------------------------------------------- */
+
+/* Team */
+
+.team-social{
+	list-style: none;
+	padding: 0;
+}
+
+.team-social li{
+	display: inline;
+}
+
+.type-team .team-thumb{
+	text-align: center;
+}
+
+.team-inner{
+	position: relative;
+}
+
+.team-social .fa{
+	font-size: 22px;
+}
+
+.type-team.type-b.style2 .team-social .fa{
+	color: #fff;
+}
+
+.type-team.type-b.style2 .team-social {
+    opacity: 0;
+    position: absolute;
+    -webkit-transition: all 0.5s;
+	   -moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+		 -o-transition: all 0.5s;
+			transition: all 0.5s;
+    width: 100%;
+    left: 0;
+	bottom:0;
+}
+
+.type-team.type-b.style2 .team-thumb:hover .team-social {
+    opacity: 1;
+}
+
+.type-team.type-b.style2 .avatar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e64e4e;
+    opacity: 0;
+	-webkit-transition: all 0.1s;
+	   -moz-transition: all 0.1s;
+		-ms-transition: all 0.1s;
+		 -o-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.type-team.type-b.style2 .team-thumb:hover .avatar::after {
+    -webkit-animation: pop-scale 0.5s 1 cubic-bezier(0.15, 0.85, 0.35, 1.2);
+    -moz-animation: pop-scale 0.5s 1 cubic-bezier(0.15, 0.85, 0.35, 1.2);
+    animation: pop-scale 0.5s 1 cubic-bezier(0.15, 0.85, 0.35, 1.2);
+    opacity: 0.8;
+}
+
+.type-team.type-b.style2 .team-content {
+    padding: 15px 0;
+	border: 1px solid #f5f5f5;
+}
+
+.type-team.type-b.style2 .team-content .name, .type-team.type-b.style2 .team-content .name a {
+    color: #47425d;
+    font-weight: 700;
+}
+
+.type-team.type-b.style2 .team-content .name {
+    font-size: 18px;
+}
+
+/* Pricing Table */
+
+.pricing-section{
+	text-align: center;
+	box-shadow: 0 0 10px #cccccc;
+}
+
+.plan-item-thumb{
+	padding-bottom: 50px;
+}
+
+.plan-header{
+	background-color: #47425d;
+	padding: 20px;
+	color: #fff;
+}
+
+.plan-header h4{
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: unset;
+	margin: 0 0 15px;
+}
+
+.plan-price{
+    font-size: 50px;
+    font-weight: 900;
+	line-height: 1;
+	margin-bottom: 10px;
+}
+
+.plan-feature{
+	padding: 10px;
+}
+
+.plan-text{
+	padding: 30px 0;
+}
+
+/*------ Testimonials ------*/
+
+/* Pro Testimonials */
+.style2 .testimonials-content .client-info {
+    position: relative;
+    margin-bottom: 19px;
+}
+
+.style2 .testimonials-content .client-info .client,
+.style2 .testimonials-content .client-info .avatar {
+    position: relative;
+    display: inline-block;
+}
+
+.style2 .client-info .client .client-name {
+    margin-bottom: -2px;
+}
+
+.style2 .client-info .avatar img {
+    width: 100%;
+    height: auto;
+}
+
+.style2 .client-info .avatar {
+	overflow: hidden;
+    border-radius: 50%;
+    width: 100px;
+    border: 2px solid #fff;
+	float: right;
+	right: 15px;
+    border: 6px solid #fff;
+    box-shadow: 0 1px 5px 2px rgba(238, 238, 238, 0.60);
+	margin-top: -40px;
+}
+
+.style2 .testimonials-content {
+	position: relative;
+    padding: 25px;
+    margin-top: 20px;
+	outline: 1px solid #f5f5f5;
+	outline-offset: -15px;
+}
+
+.bizworx_testimonials .owl-pagination {
+    bottom: -40px;
+}
+
+/* Pro Testimonials End */
+
+.default-testimonials .client-info .avatar img,
+.style1 .client-info .avatar img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.default-testimonials .testimonials-content,
+.style1 .testimonials-content{
+	text-align: center;
+}
+
+.default-testimonials .client-info .client,
+.style1 .client-info .client{
+	margin-bottom: 20px;
+}
+
+.default-testimonials .client-info .client .client-name,
+.style1 .client-info .client .client-name{
+    margin-bottom: 0;
+}
+
+.default-testimonials .testimonials-content,
+.style1 .testimonials-content{
+    padding: 25px;
+	outline: 1px solid #f5f5f5;
+	outline-offset: -15px;
+}
+
+.default-testimonials .testimonials-content{
+    width: 32%;
+    display: inline-block;
+	margin-bottom: 20px;
+}
+
+/*--------End Testimonials--------*/
+
+/*--------Post slider--------*/
+
+.bizworx-grid-posts .owl-pagination {
+	bottom: -40px;
+}
+
+.bizworx-grid-posts .entry-title {
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.bizworx-grid-posts .entry-summary {
+    font-size: 15px;
+}

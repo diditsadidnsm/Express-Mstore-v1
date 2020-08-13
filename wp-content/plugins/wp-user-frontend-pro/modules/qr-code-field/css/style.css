@@ -1,0 +1,56 @@
+#wpuf_qr_code_token_form input.wpuf_qr_token_id {
+    width:50%;
+}
+.wpuf_qr_code_wrapper{
+    overflow: hidden;
+}
+
+p#wpuf_qr_code_token{
+    float: left;
+    font-size: 15px;
+    margin: 0px;
+}
+
+
+.remove_token_class{
+    float: right;
+    margin-right: 15px;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.align_left {
+	width: 45%;
+	float: left;
+	margin-right: 40px;
+}
+
+.align_left h2 {
+	margin-bottom: 0px;
+}
+
+.qr_template {
+	margin-right: 0px;
+}
+
+.qr_template img {
+	float: left;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.qr_template img.selected {
+	border:3px solid #2EA2CC;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.qr_template img.current {
+	border:3px solid #e3e3e3;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+} 

@@ -1,0 +1,9 @@
+v1.1 -> December 20, 2016
+-------------------------
+
+- [Tweak] Removed `telize.com` and using `freegeoip.com`
+
+v1.0
+----
+
+- Initial Release

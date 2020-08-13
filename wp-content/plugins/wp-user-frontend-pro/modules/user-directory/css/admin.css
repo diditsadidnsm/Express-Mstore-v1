@@ -1,0 +1,150 @@
+/* Menu Fields */
+ul.wpuf-menu-field {
+    right: 2%;
+    position: fixed;
+    background: #F8F8F8;
+    padding: 20px;
+    border: 1px solid #DFDFDF;
+}
+
+ul.wpuf-menu-field li {
+    position: relative;
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+ul.wpuf-menu-field li.header {
+    background: #F1F1F1;
+    color: #6A6A6A;
+    border-bottom: 1px solid #DFDFDF;
+    font-size: 15px;
+    font-weight: bold;
+    margin: -20px -20px 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+ul.wpuf-menu-field li a {
+    width: 130px;
+    text-decoration: none;
+}
+
+/* All Fields Holder */
+
+ul#wpuf-all-field {
+    margin: 0;
+    padding: 0;
+}
+
+ul#wpuf-all-field > li {
+    position: relative;
+    background: #F9F9F9;
+    border: 1px solid #DFDFDF;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+ul#wpuf-all-field > li .wpuf-legend{
+    background:#f1f1f1;
+    background-image:-webkit-gradient(linear, left bottom, left top, from(#ececec), to(#f9f9f9));
+    background-image:-webkit-linear-gradient(bottom, #ececec, #f9f9f9);
+    background-image:-moz-linear-gradient(bottom, #ececec, #f9f9f9);
+    background-image:-o-linear-gradient(bottom, #ececec, #f9f9f9);
+    background-image:linear-gradient(to top, #ececec, #f9f9f9);
+    color:#464646;
+    border-bottom:1px solid #ccc;
+    padding-bottom:5px;
+    padding:7px 10px;
+}
+
+ul#wpuf-all-field > li .wpuf-legend:after{
+    clear:both;
+    content:"";
+    display:table;
+}
+
+ul#wpuf-all-field > li .wpuf-legend:hover { cursor:move; }
+ul#wpuf-all-field > li .wpuf-legend .wpuf-label { float:left; width:70%; }
+ul#wpuf-all-field > li .wpuf-legend .wpuf-actions { float:right; }
+ul#wpuf-all-field > li .wpuf-actions a { font-size:11px; padding:2px 5px; }
+
+ul#wpuf-all-field > li .wpuf-form-holder { padding:10px; }
+
+ul.wpuf-role {
+    margin: 0;
+    padding: 0;
+}
+
+ul.wpuf-role li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline;
+}
+
+ul#wpuf-all-field > li .wpuf-legend .wpuf-actions a.wpuf-remove {
+    background:transparent url(../images/delete.png) no-repeat 70% 50%;
+    color:#f00;
+    width:16px;
+    text-indent:-9999px;
+    display:inline-block;
+}
+
+ul#wpuf-all-field > li .wpuf-legend .wpuf-actions a.wpuf-toggle {
+    background:transparent url(../images/arrows.png) no-repeat 0 2px;
+    width:10px;
+    text-indent:-9999px;
+    display:inline-block;
+}
+
+label.wpuf-user-role {
+    /*float: left;*/
+    /*width: 4%;*/
+}
+
+ul.wpuf-role {
+    display: inline;
+}
+
+span.wpuf-or { padding: 0 15px; }
+
+ul#wpuf-all-field > li .wpuf-form-rows { padding-bottom:3px; }
+ul#wpuf-all-field > li .wpuf-form-rows:after { clear:both; content:""; display:table;}
+ul#wpuf-all-field > li .wpuf-form-rows label { float:left; width:15%; font-size:12px;}
+ul#wpuf-all-field > li .wpuf-form-rows label.full-width { width:100%; }
+ul#wpuf-all-field > li .wpuf-form-rows textarea { width:70%; }
+ul#wpuf-all-field > li .wpuf-form-rows .wpuf-form-sub-fields { width:75%; float:left; }
+ul#wpuf-all-field > li .wpuf-form-rows .wpuf-form-sub-fields label { float:none; display:inline-block; width:auto;}
+ul#wpuf-all-field > li .wpuf-form-rows .wpuf-form-sub-fields label.wpuf-hide { display: none; }
+.wpuf-social-url { margin-left: 30px; }
+
+div.wpuf-avatar span{
+    float: right;
+}
+div.wpuf-avatar span:after{
+    clear: both;
+}
+div.wpuf-form{
+    margin: 0;
+    padding: 0;
+    width: 80%;
+}
+img.profile-header, img.user-listing {
+  display: block;
+  width: 50%;
+  background: #fff;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  margin: -25px 0 15px 30px;
+  position: relative;
+  line-height: 0;
+  border: 1px solid #ededed;
+  padding: 4px;
+  -webkit-filter: grayscale(100%) opacity(.3); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) opacity(.3);
+}
+img.profile-header:hover, input[type=radio]:checked + img.profile-header, img.profile-header.active,
+img.user-listing:hover, input[type=radio]:checked + img.user-listing, img.user-listing.active {
+  -webkit-filter: grayscale(0%) opacity(1) drop-shadow(8px 8px 5px #ccc); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%) opacity(1) drop-shadow(8px 8px 5px #ccc);
+}

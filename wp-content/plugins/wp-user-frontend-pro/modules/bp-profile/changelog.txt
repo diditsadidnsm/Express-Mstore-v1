@@ -1,0 +1,16 @@
+v0.3 -> December 20, 2016
+----------------------
+
+- [Fix] BuddyPress user registration feed
+- [Fix] New member notification
+
+
+v0.2 -> August 5, 2014
+----------------------
+
+- [New] Multisite compatibility.
+
+v0.1 -> August 5, 2014
+----------------------
+
+- Initial release

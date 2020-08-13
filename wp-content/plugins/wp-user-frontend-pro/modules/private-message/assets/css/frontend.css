@@ -1,0 +1,269 @@
+/*first page*/
+.mailbox {
+    width: 100%;
+}
+.mailbox form{
+    float: left;
+    margin-bottom: 20px;
+}
+.mailbox button{
+    float: right;
+    width: 30%;
+    background-color: #f1f1f1;
+}
+.single {
+    clear: both;
+    margin-top: 5px;
+    position: relative;
+    padding: 5px 10px;
+    background: #eee;
+    height: 35px;
+    overflow: hidden;
+}
+.single a, .single a:visited, .single a:hover {
+    color: black;
+}
+.single.unread .sender, .single.unread .title {
+    font-weight: bold;
+}
+.single .sender {
+    position: absolute;
+    width: 80px;
+}
+.single .title {
+    position: absolute;
+    margin-left: 90px;
+    width: 165px;
+}
+.single .date {
+    position: absolute;
+    right: 25px;
+}
+.single .delete {
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+}
+.single .delete img {
+    width: 15px;
+    box-shadow: none;
+    padding-top: 5px;
+}
+/*single chat*/
+#wpuf-private-message-single .chat-with a {
+    text-decoration: none;
+}
+#wpuf-private-message-single .chat-with span {
+    float: right;
+}
+.chat-container{
+    width: 100%;
+    height: 500px;
+}
+.chat-container form{
+    width: 100%;
+    margin-bottom: 0px;
+    height: 25%;
+}
+.chat-container form textarea{
+    width: 97%;
+    resize: none;
+    height: 80px;
+}
+.chat-container button{
+    width: 100%;
+    margin-bottom: 0px;
+    background-color: #f1f1f1;
+}
+.chat-box{
+    height: 75%;
+    overflow: scroll;
+}
+.single-chat-container {
+    bottom: 0px;
+}
+.chat {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+.chat::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.chat span.delete {
+    float: right;
+    width: 25px;
+    margin-right: 0;
+    cursor: pointer;
+    display: none;
+}
+.chat span.delete img {
+    width: 25px;
+}
+.chat:hover span.delete {
+    display: block;
+}
+.chat img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.chat img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+.time-right {
+    float: right;
+    color: #aaa;
+}
+.time-left {
+    float: left;
+    color: #999;
+}
+/*modal*/
+.wpuf-form-template-modal {
+    background: #fff;
+    position: fixed;
+    top: 5%;
+    bottom: 5%;
+    right: 10%;
+    left: 10%;
+    display: none;
+    box-shadow: 0 1px 20px 5px rgba(0, 0, 0, 0.1);
+    z-index: 160000;
+}
+.wpuf-form-template-modal.show {
+    display: block;
+}
+.wpuf-form-template-modal * {
+    box-sizing: border-box;
+}
+.wpuf-form-template-modal a.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font: 300 1.71429em "dashicons" !important;
+    color: #777;
+    content: '\f335';
+    display: inline-block;
+    padding: 10px 20px;
+    z-index: 5;
+    text-decoration: none;
+    height: 50px;
+    cursor: pointer;
+    border-left: 1px solid #ddd;
+}
+.wpuf-form-template-modal a.close:hover {
+    background: #eee;
+    opacity: 0.8;
+    text-decoration: none;
+}
+.wpuf-form-template-modal a.close:active {
+    background: #eee;
+    opacity: 0.4;
+}
+.wpuf-form-template-modal .modal-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    z-index: 4;
+    border-bottom: 1px solid #ddd;
+    padding-left: 15px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+.wpuf-form-template-modal .modal-header h2 {
+    line-height: 50px;
+    text-align: left;
+    margin-top: 0;
+    color: #5d6d74;
+    font-size: 20px;
+    text-shadow: 0 1px 1px #fff;
+}
+.wpuf-form-template-modal .content-container {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    bottom: 50px;
+    left: 0;
+    overflow: auto;
+    padding: 2em 2em;
+}
+.wpuf-form-template-modal .content-container.no-footer {
+    bottom: 0;
+}
+.wpuf-form-template-modal .content {
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: left;
+}
+.wpuf-form-template-modal .content-container .content .user-search input {
+    width: 100%
+}
+.wpuf-form-template-modal .content ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.wpuf-form-template-modal .content ul li a {
+    text-decoration: none;
+    float: left;
+    margin: 10px;
+}
+.wpuf-form-template-modal .content ul li img {
+    border: 1px solid #f1f1f1;
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+}
+.wpuf-form-template-modal footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 12px 20px;
+    border-top: 1px solid #ddd;
+    background: #fff;
+    text-align: left;
+}
+.wpuf-form-template-modal-backdrop {
+    position: fixed;
+    z-index: 159999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 360px;
+    background: #000;
+    opacity: .7;
+    display: none;
+}
+.wpuf-form-template-modal-backdrop.show {
+    display: block;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .wpuf-form-template-modal .modal-header h2 small {
+        display: none;
+    }
+    .wpuf-form-template-modal .content ul li {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+}

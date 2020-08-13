@@ -1,0 +1,35 @@
+<wpml-config>
+    <admin-texts>
+        <key name="kyma_theme_options">
+            <key name="logo_layout"/>
+            <key name="topbarcolor"/>
+            <key name="headercolorscheme"/>
+            <key name="home_service_heading"/>
+            <key name="service_title_1"/>
+            <key name="service_text_1"/>
+            <key name="service_title_2"/>
+            <key name="service_text_2"/>
+            <key name="service_title_3"/>
+            <key name="service_text_3"/>
+            <key name="service_title_4"/>
+            <key name="service_text_4"/>
+            <key name="port_heading"/>
+            <key name="home_part_title"/>
+            <key name="partners_home"/>
+            <key name="home_part_desc"/>
+            <key name="footer_copyright"/>
+            <key name="developed_by_text"/>
+            <key name="developed_by_link_text"/>
+            <key name="developed_by_link"/>
+            <key name="blog_title"/>
+            <key name="blog_desc"/>
+            <key name="callout_title"/>
+            <key name="callout_description"/>
+            <key name="callout_btn_text"/>
+            <key name="contact_email"/>
+            <key name="home_blog_title"/>
+            <key name="related_post_text"/>
+            <key name="about_author_text"/>
+        </key>
+    </admin-texts>
+</wpml-config>

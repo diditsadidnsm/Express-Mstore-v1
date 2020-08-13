@@ -1,0 +1,120 @@
+/*Cutomizer CSS*/
+.kyma-accordion-section-title {
+    color: #0073aa;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    padding: 10px 10px 11px 14px;
+    line-height: 21px;
+    background: #FFF;
+    margin: 0 -12px 0;
+    border-left: 4px solid #0073aa
+}
+.customize-control-kirki-radio-image label{
+  display: initial !important;
+}
+.customize-control-kirki-radio-image img {
+    max-width: 30% !important;
+}
+#accordion-section-kyma_pro h3.accordion-section-title{
+
+	background: #1ccdca;
+
+	color:#fff;
+}
+#customize-controls #accordion-section-kyma_pro .accordion-section-title:focus, #customize-controls #accordion-section-kyma_pro .accordion-section-title:hover, #customize-controls #accordion-section-kyma_pro.open .accordion-section-title, #customize-controls #accordion-section-kyma_pro:hover>.accordion-section-title{
+  background: #00a69b;
+  color: #fff;
+}
+#customize-theme-controls #accordion-section-kyma_pro .accordion-section-title:after{
+  color:#fff;
+}
+.btn-lg, .btn-group-lg > .btn {
+
+  padding: 10px 16px;
+
+  font-size: 18px;
+
+  line-height: 1.33;
+
+  border-radius: 6px;
+
+}
+.upsell-btn > .btn-success {
+    color: #fff;
+    background-color: #1ccdca;
+    border-color: #1ccdca;
+    text-decoration: none;
+}
+.upsell-btn > .btn-success:hover {
+    color: #fff;
+    background-color: #00a69b;
+    border-color: #1ccdca;
+}
+.upsell-btn{
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.upsell-btn-bottom{
+  margin-top:20px;
+}
+.upsell-btn > a.btn.btn-success.btn {
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.customize-pane-parent .control-section .accordion-section-title:before {
+    font-family: dashicons;
+    content: "\f103";
+    font-size: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.theme-action-count {
+  padding: 0 6px;
+  display: inline-block;
+  background-color: #d54e21;
+  color: #fff;
+  font-size: 9px;
+  line-height: 17px;
+  font-weight: 600;
+  margin: 1px 0 0 2px;
+  vertical-align: top;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  z-index: 26;
+}
+#accordion-panel-kyma_general_settings_panel .accordion-section-title:before {
+    content: "\f111";
+}
+
+#accordion-panel-kyma_home_panel .accordion-section-title:before {
+    content: "\f102";
+}
+
+#accordion-panel-nav_menus .accordion-section-title:before {
+    content: "\f333";
+}
+
+#accordion-panel-widgets .accordion-section-title:before {
+    content: "\f116";
+}
+
+#accordion-panel-widgets .accordion-section-title:before {
+    content: "\f116";
+}
+
+#accordion-section-custom_css .accordion-section-title:before {
+    content: "\f499";
+}
+
+#accordion-section-kyma_home_page .accordion-section-title::before {
+    content: "\f156";
+}
+#accordion-section-kyma_pro .accordion-section-title::before {
+    content: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDMwIDMwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMCAzMDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz4KCTxwYXRoIGQ9Ik0xMS4wMDEsMzBsMi43MDctMTYuMzM0SDVMMTEuNDU4LDBsOS4yNSwwLjEyM0wxNi42NjcsOEgyNUwxMS4wMDEsMzB6IiBmaWxsPSIjRkZGRkZGIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==);
+}
+
+.wp-core-ui .button{
+  text-shadow:0 0px 0px, 0px 0 0px, 0 0px 0px, 0px 0 0px !important;
+}

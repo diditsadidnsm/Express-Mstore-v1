@@ -1,0 +1,57 @@
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+    display: block;
+}
+
+img, object, embed {
+    max-width: 100%;
+    vertical-align: top;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 24px;
+}
+
+ul {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #324545;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+h6 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}

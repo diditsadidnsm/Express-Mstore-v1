@@ -1,0 +1,138 @@
+# Copyright (C) 2017 weDevs
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP User Frontend Pro-SMS 0.1\n"
+"Report-Msgid-Bugs-To: https://wedevs.com/support/\n"
+"POT-Creation-Date: 2017-01-04 09:58:03+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: wpuf-sms.php:98 wpuf-sms.php:99
+msgid "Clickatell name"
+msgstr ""
+
+#: wpuf-sms.php:105 wpuf-sms.php:106
+msgid "Clickatell Password"
+msgstr ""
+
+#: wpuf-sms.php:112 wpuf-sms.php:113
+msgid "Clickatell api"
+msgstr ""
+
+#: wpuf-sms.php:118 wpuf-sms.php:119
+msgid "SMSGlobal Name"
+msgstr ""
+
+#: wpuf-sms.php:124 wpuf-sms.php:125
+msgid "SMSGlobal Passord"
+msgstr ""
+
+#: wpuf-sms.php:130 wpuf-sms.php:131
+msgid "Nexmo API"
+msgstr ""
+
+#: wpuf-sms.php:136 wpuf-sms.php:137
+msgid "Nexmo API Secret"
+msgstr ""
+
+#: wpuf-sms.php:143 wpuf-sms.php:144
+msgid "Twillo From Number"
+msgstr ""
+
+#: wpuf-sms.php:149 wpuf-sms.php:150
+msgid "Twillo Account SID"
+msgstr ""
+
+#: wpuf-sms.php:155 wpuf-sms.php:156
+msgid "Twillo Authro Token"
+msgstr ""
+
+#: wpuf-sms.php:169
+msgid "SMS"
+msgstr ""
+
+#: wpuf-sms.php:197
+msgid "Mobile Message"
+msgstr ""
+
+#: wpuf-sms.php:201
+msgid "Enable SMS"
+msgstr ""
+
+#: wpuf-sms.php:203
+msgid "Send sms for per post"
+msgstr ""
+
+#: wpuf-sms.php:207
+msgid "Mobile Number"
+msgstr ""
+
+#: wpuf-sms.php:210
+msgid "mobile number"
+msgstr ""
+
+#: wpuf-sms.php:212
+msgid "SMS will send from this number"
+msgstr ""
+
+#: wpuf-sms.php:217
+msgid "Sender Name"
+msgstr ""
+
+#: wpuf-sms.php:220 wpuf-sms.php:222
+msgid "SMS sender name"
+msgstr ""
+
+#: wpuf-sms.php:227 wpuf-sms.php:232
+msgid "SMS body"
+msgstr ""
+
+#: wpuf-sms.php:230
+msgid "Text message"
+msgstr ""
+
+#: wpuf-sms.php:237
+msgid "Gateway"
+msgstr ""
+
+#: wpuf-sms.php:255
+msgid "Nexmo"
+msgstr ""
+
+#: wpuf-sms.php:256
+msgid "Twilio"
+msgstr ""
+
+#: wpuf-sms.php:257
+msgid "Clickatel"
+msgstr ""
+
+#: wpuf-sms.php:258
+msgid "SMS global"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP User Frontend Pro-SMS"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wedevs.com/products/plugins/wp-user-frontend-pro/sms-notification/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "SMS notification for post"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "weDevs"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://wedevs.com/"
+msgstr ""

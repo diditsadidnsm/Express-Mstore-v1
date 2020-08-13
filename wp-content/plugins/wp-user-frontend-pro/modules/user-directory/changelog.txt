@@ -1,0 +1,18 @@
+v1.1.1 -> April 4, 2017
+--------------------
+- [Fix] Admin 'User Listing' sub-menu not showing in backend
+- [fix] Text-domain issue fixed
+
+v1.1 -> December 20, 2016
+-------------------------
+- [Fix] Undefined error.
+- [Fix] Updating issue.
+
+= v1.0 - July 1, 2016 =
+-----------------------
+ - [fix] Updated `_.template()` with the new syntax
+ - [fix] Undefined offset fix on single profile display
+
+= v0.1 =
+-------------------
+ - Initial Release

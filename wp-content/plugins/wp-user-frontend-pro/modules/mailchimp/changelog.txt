@@ -1,0 +1,14 @@
+v0.2.1 -> April 3, 2017
+-------------------------
+- [Fix] Mailchimp tab not showing with registration form
+- [Fix] Mailchimp submenu not showing in admin panel
+
+v0.2 -> December 20, 2016
+-------------------------
+- [Fix] Undefined variable error messages
+- [Fix] Unnecessary activation and deactivation hooks are removed
+- [Tweak] Warnings and notices are more precise and meaningful
+
+v0.1
+--------
+- Initial Release

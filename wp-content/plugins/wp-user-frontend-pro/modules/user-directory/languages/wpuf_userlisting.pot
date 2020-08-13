@@ -1,0 +1,224 @@
+# Copyright (C) 2017 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: support@wedevs.com\n"
+"POT-Creation-Date: 2017-04-04 05:27:50+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
+
+#: userlisting-admin.php:41
+msgid "Profile Gallery Image Size "
+msgstr ""
+
+#: userlisting-admin.php:42
+msgid "Set the image size of picture gallery in frontend"
+msgstr ""
+
+#: userlisting-admin.php:49
+msgid "Avatar Size "
+msgstr ""
+
+#: userlisting-admin.php:50
+msgid "Set the image size of profile picture in frontend"
+msgstr ""
+
+#: userlisting-admin.php:60
+msgid "User Listing"
+msgstr ""
+
+#: userlisting-admin.php:81
+msgid "Congrats"
+msgstr ""
+
+#: userlisting-admin.php:156
+msgid "Remove"
+msgstr ""
+
+#: userlisting-admin.php:157
+msgid "Toggle"
+msgstr ""
+
+#: userlisting-admin.php:179 userlisting-admin.php:216
+#: userlisting-admin.php:235 userlisting-admin.php:336
+#: userlisting-admin.php:371
+msgid "Label"
+msgstr ""
+
+#: userlisting-admin.php:186 userlisting-admin.php:343
+msgid "Meta Key"
+msgstr ""
+
+#: userlisting-admin.php:192 userlisting-admin.php:311
+#: userlisting-admin.php:349 userlisting-admin.php:836
+msgid "Profile Fields"
+msgstr ""
+
+#: userlisting-admin.php:195 userlisting-admin.php:314
+#: userlisting-admin.php:352 userlisting-admin.php:839
+msgid "Meta Keys"
+msgstr ""
+
+#: userlisting-admin.php:204 userlisting-admin.php:224
+#: userlisting-admin.php:256 userlisting-admin.php:274
+#: userlisting-admin.php:361 userlisting-admin.php:393
+msgid "Profile User Role"
+msgstr ""
+
+#: userlisting-admin.php:242
+msgid "Post type"
+msgstr ""
+
+#: userlisting-admin.php:250
+msgid "Post Count"
+msgstr ""
+
+#: userlisting-admin.php:298 userlisting-admin.php:824
+msgid "Icon URL"
+msgstr ""
+
+#: userlisting-admin.php:303 userlisting-admin.php:829
+msgid "Upload Icon"
+msgstr ""
+
+#: userlisting-admin.php:308 userlisting-admin.php:832
+msgid "Profile URL"
+msgstr ""
+
+#: userlisting-admin.php:377
+msgid "Post type Comment"
+msgstr ""
+
+#: userlisting-admin.php:386
+msgid "Comment count"
+msgstr ""
+
+#: userlisting-admin.php:451
+msgid "Guest"
+msgstr ""
+
+#: userlisting-admin.php:496 userlisting-admin.php:507
+msgid "Show in user listing table"
+msgstr ""
+
+#: userlisting-admin.php:705
+msgid "Fields are updated."
+msgstr ""
+
+#: userlisting-admin.php:722
+msgid "WP User Frontend Pro: User Listing"
+msgstr ""
+
+#: userlisting-admin.php:725
+msgid "Click to Add Items"
+msgstr ""
+
+#: userlisting-admin.php:726
+msgid "Add Meta field"
+msgstr ""
+
+#: userlisting-admin.php:727
+msgid "Add Section"
+msgstr ""
+
+#: userlisting-admin.php:728
+msgid "Add Post Type"
+msgstr ""
+
+#: userlisting-admin.php:729
+msgid "Add Comment"
+msgstr ""
+
+#: userlisting-admin.php:730
+msgid "Social"
+msgstr ""
+
+#: userlisting-admin.php:731
+msgid "Image / File"
+msgstr ""
+
+#: userlisting-admin.php:739
+msgid "Toggle Fields"
+msgstr ""
+
+#: userlisting-admin.php:744
+msgid "Show Avatar"
+msgstr ""
+
+#: userlisting-admin.php:957
+msgid "X"
+msgstr ""
+
+#: userlisting.php:114 userlisting.php:628
+msgid "Username"
+msgstr ""
+
+#: userlisting.php:122
+msgid "First Name"
+msgstr ""
+
+#: userlisting.php:130
+msgid "Last Name"
+msgstr ""
+
+#: userlisting.php:138
+msgid "Nickname"
+msgstr ""
+
+#: userlisting.php:145
+msgid "E-mail"
+msgstr ""
+
+#: userlisting.php:152
+msgid "Website"
+msgstr ""
+
+#: userlisting.php:159
+msgid "Biographical Info"
+msgstr ""
+
+#: userlisting.php:210
+msgid "&laquo;"
+msgstr ""
+
+#: userlisting.php:211
+msgid "&raquo;"
+msgstr ""
+
+#: userlisting.php:235
+msgid "&larr; Back to listing"
+msgstr ""
+
+#: userlisting.php:336
+msgid "Nohting found!"
+msgstr ""
+
+#: userlisting.php:362
+msgid "Search here"
+msgstr ""
+
+#: userlisting.php:364
+msgid "Search"
+msgstr ""
+
+#: userlisting.php:425
+msgid "...read more"
+msgstr ""
+
+#: userlisting.php:432
+msgid "No comments found"
+msgstr ""
+
+#: userlisting.php:574
+msgid "Avatar"
+msgstr ""
+
+#: userlisting.php:629
+msgid "Name"
+msgstr ""

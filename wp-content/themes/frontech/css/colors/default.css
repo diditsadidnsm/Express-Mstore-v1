@@ -1,0 +1,273 @@
+/*! default.css
+*
+* theme default color skin
+*
+* @package Frontech
+*/
+::-moz-selection {
+    background: #dd3333;
+}
+
+::selection {
+    background: #dd3333;
+}
+
+a, a:hover, ins, #navy ul li a:hover, #navy ul li a:hover > .parent_arrow, #navy ul li a:hover i.menu_icon, #navy .tab_menu_item > a:hover, #navy .tab_menu_item:not(.active) > a:hover i, .light_header .top_add_card:hover, .light_header .active .top_add_card, .light_header .active .top_add_card > span, .icon_boxes_con.style1.solid_icon .service_box > .icon i, .section_icon i, .hm_filter_wrapper:not(.porto_hidden_title):not(.porto_full_desc) .filter_item_block:hover .porto_desc h6, .porto_nav .expand_img:hover, .porto_nav .detail_link:hover, .project_text_nav .porto_type:hover .icon_expand:hover, .porto_nums > span.like.added i, .porto_nums > span.like i:hover, #options .sort_list a:hover, #options .sort_list a.selected, #sort-direction.option-set a.selected, #sort-direction.option-set a:hover, .porto_full_desc .porto_date, .hoverdir_meta .proj_date, .add2cart_btn:hover, .add2cart_btn:hover i, .social_media a:hover, .blog_grid_con .meta a:hover, .post_title_con .meta a:hover, .blog_grid_con .title a:hover, .feature_inner_btns > a, .read_more_button, blockquote > i, .tags_con > a:hover, .post_next_prev a:hover, .post_next_prev a:hover, .post_next_prev a:hover .t, .related_posts_slide .related_title:hover, .png_slider .owl-prev:hover, .png_slider .owl-next:hover, .rev_color_main, .main_title_c1, #navy > li.current_page_item > a:not(.nav_trigger), #navy > li:hover > a:not(.nav_trigger), #navy > li > a.current, .light_header #navy > li > a.current, .languages-select .languages-panel-con .lang_checked, .top_cart_list > li > a:hover .top_cart_title, .left.top_cart_total, .left.top_cart_total, .top_search .top_search_icon, .welcome_banner h3 span, .service_box:hover h3, .main_title h2 .icon, .main_title .line i, .title1, .tabs2:not(.fill_active) .tabs-navi a:hover, .tabs1.ver_tabs .tabs-navi a.selected, .tabs1:not(.ver_tabs) .tabs-navi a.selected, .tabs2 .tabs-navi a.selected, .tabs2 .tabs-navi a.selected > span i, .hm-tabs.simple_tabs .tabs-navi li a.selected, .shop_slider .pro_add2cart_details:hover, .add2cart_image .add2cart_zoom:hover, .cart_toltip_icon, .cart_toltip_icon2, .search_block form .search_btn, .tagcloud a:hover .tag, .posts_widget_list li > a, .posts_widget_list2 li > a span:hover, .add2cart_buttons > a:hover, .single_product_title, .product_options .option_name, .simple_title, .vid_con .vid_icon, #reviews .required, .blog_grid_con .meta .post_type_meta a, .post_title_con .post_type_meta a, .c_con .c_title, .about_author_link:hover > span, .footer_menu > li a:hover, .hm_blog_list .blog_grid_con .title a:hover, .post_title_con .title a:hover, .hm_blog_list .btn_a,.btn_a i.in_left, .btn_a i.in_right, .f_s_i_format, .post_format_con > span > a, h4.author_name, .panel-heading a:hover i, .list2 li i, .list4 > li > i, .hm_tooltip-item1, .page404, .sitemap ul li a:hover, i.lfc_icon, .dark .hm-tabs.simple_tabs .tabs-navi li a.selected, .top_expande, .open_options, .open_options:focus, #subscribe_output h4, .hm_blog_list .tag-sticky-2 .blog_grid_con .title a, .hm_blog_list .tag-sticky-2  .blog_grid_con .meta a, .hm_blog_list .tag-sticky-2  .blog_grid_con .meta {
+    color: #dd3333;
+}
+
+#navy ul li:not(.image_menu_slide) a:after, #navy .tab_menu_item.active > a, .topbar.topbar_colored, .light_header .languages-select .languages-panel-con, .icon_boxes_con.style1 .service_box .ser-box-link:hover > span, .icon_boxes_con.style1 .service_box .ser-box-link:hover > span:after, .icon_boxes_con.style1.solid_icon.radius5 .service_box:hover > .icon:after, .icon_boxes_con.style1.solid_icon.radius5 .service_box:hover > .icon i, .hm_filter_wrapper .porto_type:after, #filter-by > li a.selected, .mb_YTPseekbar, .spec_req2, .spec_req2 .raq_a2, .spec_req2 .raq_b2, .blog_grid_format i, .feature_inner_ling:after, .related_posts_slide .related_img > span:after, .png_slider .owl-page.active, .png_slider .owl-page:hover, .feature_icon_slider .owl-page.active, .feature_icon_slider .owl-page:hover, .porto_galla .owl-page.active, .porto_galla .owl-page:hover, .content_slider .owl-page.active, .content_slider .owl-page:hover, .sidebar_slider .owl-page.active, .sidebar_slider .owl-page:hover, .rev_offer_circle, .flex_style1 #flex_carousel .flex_next > span:after, .flex_style1 #flex_carousel .flex_previous > span:after, .photostack nav span.current, #photostack-1 nav span.current, .camera_wrap .camera_pag .camera_pag_ul li:hover > span, .camera_wrap .camera_pag .camera_pag_ul li.cameracurrent > span, .flex-control-paging li a.flex-active, .mejs-controls .mejs-time-rail .mejs-time-current, .mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-current, .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current, #navy > li > a::after, #navy li.normal_menu ul:after, #navy li.has_mega_menu > ul:after, .top_cart_btn, .top_catt_remove:hover:after, .top_catt_remove:hover:before, .icon_boxes_con.style1 .service_box > .icon i, h2.title2 span, ul.list1 li:after, .main_title.blue_bg > h2, .tabs1:not(.ver_tabs):not(.fill_active) .tabs-navi a.selected:before, .tabs2.fill_active .tabs-navi a.selected, .tabs2.fill_active .tabs-navi a:hover, .tabs1.fill_active .tabs-navi a.selected, .tabs1.fill_active .tabs-navi a:hover, .ver_tabs .tabs-navi a.selected:before, .send_button, .pagination li a:hover, .pagination li.active a, .pagination li.next_pagination > a:hover, .pagination li.prev_pagination > a:hover, .sidebar_slide_title:after, .vid_con:after, .hm-pricing-header, .newsletter_button, .recent_posts_list li > a .recent_posts_img:after, .hm_vid_con .vid_icon i, .hm_vid_con .vid_icon:hover i, .vid_con .vid_icon:hover i, .blog_list_format, .blog_list_format:hover, .quote_con, a.quote_con:focus, #comments .children:after, .panel-heading a:not(.collapsed), .panel-heading a:hover:after, .panel-heading a:hover:before, .btn_a.color1 > span, .btn_b.color1, .btn_c.color1, .main_button.color1, .tooltip-content3::after, .sitemap > li > a, .spinner1 > div, .light_header .top-socials > a > span.soc_icon_bg, .light_header .top-socials span.soc_name:after, .light_header .top-socials span.soc_name:before, .light_header .top-socials > a > span.soc_name, .main_title .line:before, .option_button.active, .option_button:hover, .hm_vid_con:after {
+    background: #dd3333;
+}
+
+.preloader3 .spinner .sk-dot1,.preloader3 .spinner .sk-dot2,.main_title .dot, .icon_boxes_con.style1 .service_box .ser-box-link:hover, .icon_boxes_con.style1.solid_icon .service_box > .icon:after, .filter_by_mobile #filter-by > li a.selected, #filter-by > li a.selected, .add2cart_btn:hover, .social_media a:hover, .tags_con > a:hover, input[type="text"]:focus, textarea:focus, input[type="password"]:focus, .top_catt_remove:hover, .tabs2 .tabs-navi a.selected, .tabs2.fill_active .tabs-navi a.selected, .tabs2.fill_active .tabs-navi a:hover, .tabs1.fill_active .tabs-navi a.selected, .tabs1.fill_active .tabs-navi a:hover, .hm-tabs.simple_tabs .tabs-navi li a.selected, .send_button, .pagination li a:hover, .pagination li.active a, .pagination li.next_pagination > a:hover, .pagination li.prev_pagination > a:hover, .gall_thumbs .current_thumb, #footer .tagcloud a:hover .tag, .post_format_con > span > a, .comment-reply-link:hover, .comment-edit-link:hover, .panel-heading a:not(.collapsed), .btn_b.color1, .main_button.color1, .sitemap > li > a, .dark .hm-tabs.simple_tabs .tabs-navi li a.selected, .option_button.active, .option_button:hover,#footer .tagcloud a:hover {
+    border-color: #dd3333;
+}
+
+.main_title.blue_bg .line:before, .with_arrow_d.tabs1.fill_active .tabs-navi a.selected:before {
+    border-top-color: #dd3333;
+}
+
+.png_slide .desc > span, .tabs1.fill_active .tabs-navi li.prev_selected a{
+    border-right-color: #dd3333;
+}
+
+.light_header .languages-select .languages-panel-con:after, .filter_item_block:hover .porto_desc, .tabs1.fill_active.tabs_mobile:not(.ver_tabs) .tabs-navi li a.selected, .tabs1.fill_active.tabs_mobile:not(.ver_tabs) .tabs-navi li a:hover {
+    border-bottom-color: #dd3333;
+}
+
+#navy .tab_menu_item.active > a:after, .png_slide .desc > span, .tabs1.fill_active .tabs-navi li a.selected, .tabs1.fill_active .tabs-navi li:first-child a.selected, .tabs1.fill_active .tabs-navi li:first-child a:hover, .tabs1.fill_active.tabs_mobile:not(.ver_tabs) .tabs-navi li a.selected, .tabs1.fill_active.tabs_mobile:not(.ver_tabs) .tabs-navi li a:hover, #comments .children {
+    border-left-color: #dd3333;
+}
+
+.plan_col .polygon_con .polygon_fill, .plan_col.active_plan .polygon_con .polygon_fill, .plan_col:hover .polygon_con .polygon_fill {
+    stroke: #dd3333;
+}
+
+@media only screen and (max-width: 992px) {
+    #navy > li.current_page_item > a, #navy > li > a:hover, .mobile_menu #navy > li.opened_menu > a {
+        color: #dd3333;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .hm-select, .no-touch .hm-popular .hm-select:hover, .hm-secondary-theme .hm-popular .hm-select {
+        background: #dd3333;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .light_header .top-socials > a > span.soc_icon_bg {
+        background: #dd3333;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .top_add_card:hover, .active .top_add_card, .active .top_add_card > span {
+        color: #dd3333;
+    }
+}
+
+.hm_filter_wrapper .porto_type:not(.simple_porto_img):after{
+    background: #dd3333;
+}
+
+.pagination li span.current,
+.pagination li a.page-numbers:hover {
+    background: #dd3333;
+    border-color: #dd3333;
+}
+
+#searchsubmit {
+    background: #dd3333;
+}
+
+blockquote > p:before, .tagcloud a:hover {
+    color: #dd3333;
+}
+/* Top bar social */
+.topbar_colored .top-socials > a > span.soc_icon_bg {
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.topbar_colored .top-socials > a > span.soc_name {
+    background: #b03e05;
+}
+#navigation_bar{
+    background: #fff;
+}
+.menu_button_mode:not(.header_on_side) #navy > li.current_page_item > a{
+	color: #dd3333 !important;
+}
+/* .dark_sup_menu #nav_menu:not(.mobile_menu) #navy ul li:not(.image_menu_slide) a{
+	color: #fff !important;
+} */
+
+.rev_title_f, .footer_menu a {
+    color: #dd3333 !important;
+}
+.welcome_banner.full_colored, .welcome_banner.boxed_colored{
+	background: #dd3333;
+}
+/* Slider */
+.owl_text_a a {
+	background-color: #dd3333;
+}
+#kyma_owl_slider .owl-page.active, #kyma_owl_slider .owl-page:hover {
+    background-color: #dd3333;
+}
+
+#kyma_owl_slider .kyma_owl_p:after, #kyma_owl_slider .kyma_owl_n:after{
+	background-color: #dd3333;
+}
+
+#kyma_owl_slider .kyma_owl_p > span, #kyma_owl_slider .kyma_owl_n > span,
+#kyma_owl_slider .kyma_owl_p > span:before, #kyma_owl_slider .kyma_owl_n > span:before,
+#kyma_owl_slider .kyma_owl_p > span:after, #kyma_owl_slider .kyma_owl_n > span:after{
+	background-color: #dd3333;
+}
+
+/* ----------------------------------------------------------------
+		Logo
+-----------------------------------------------------------------*/
+@media(min-width: 768px) {
+    .logo-container .logo-infocard {
+        background:#dd3333;
+    }
+}
+.logo-container .logo-infocard {
+    background: #dd3333;
+}
+
+/*-------------------------------------------------------------
+       Single Blog
+-------------------------------------------------------------*/
+.internal_post_con .meta .meta_part i{
+	color: #dd3333;
+}
+
+/*-------------------------------------------------------------
+       Breadcrumbs
+-------------------------------------------------------------*/
+.breadcrumbs__separator {
+    color: #dd3333;
+}
+
+/*-------------------------------------------------------------
+       Widget
+-------------------------------------------------------------*/
+.widget_title:after{
+	border-bottom-color: #dd3333;
+}
+
+.widget_title:after {
+    border-bottom: 1px solid #dd3333;
+}
+
+/*-------------------------------------------------------------
+       Button
+-------------------------------------------------------------*/
+.frontech-btn:before, .menu_button_mode:not(.header_on_side) #navy > li.current_page_item > a:before{
+    border-color: #dd3333;
+}
+.frontech-btn:before, .menu_button_mode:not(.header_on_side) #navy > li.current_page_item > a:before{
+    background: rgba(205, 33, 34, .7);
+}
+.frontech-btn:hover::before, .menu_button_mode:not(.header_on_side) #navy > li.current_page_item > a:hover::before{
+    background: rgba(205, 33, 34, .9);
+}
+
+/*-------------------------------------------------------------
+       Services
+-------------------------------------------------------------*/
+.icon_boxes_con.style1 .service_box > .icon i {
+    background: #dd3333;
+}
+
+/*-------------------------------------------------------------
+       Portfolio
+-------------------------------------------------------------*/
+.hm_filter_wrapper:not(.porto_hidden_title):not(.porto_full_desc) .filter_item_block:hover .porto_desc h6 {
+    color: #dd3333;
+}
+
+.filter_item_block:hover .porto_desc {
+    border-bottom-color: #dd3333;
+}
+
+.porto_block:hover .porto_desc h6 a{
+	color: #dd3333;
+}
+
+/* ----------------------------------------------------------------
+		Footer
+-----------------------------------------------------------------*/
+#footer a{
+	color: #dd3333 !important;
+}
+
+#footer .footer_row address i {
+    color: #dd3333;
+}
+
+.recent_posts_list li > a .recent_posts_img:after{
+	background: #dd3333;
+}
+
+/*-------------------------------------------------------------
+		sidebar widget
+-------------------------------------------------------------*/
+#searchsubmit{
+	    background: #dd3333;
+}
+
+/*-------------------------------------------------------------
+		404 Page 
+-------------------------------------------------------------*/
+.page404 {
+    color: #dd3333;
+}
+
+/*-------------------------------------------------------------
+		General & Basic Styles
+-------------------------------------------------------------*/
+a {
+    color: #dd3333;
+}
+
+#kyma_owl_slider .owl-page.active {
+    background-color: #dd3333;
+}
+
+#comments h4.author_name {
+    color: #dd3333;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 220px){
+	.top_expande {
+		color: #dd3333;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+    #navy-mob > li.current_page_item > a, #navy-mob > li > a:hover, .mobile_menu #navy-mob > li.opened_menu > a, #navy-mob a:hover {
+        color: #dd3333;
+    }
+}
+
+#navy > li:not(.current_page_item):hover > a:not(.nav_trigger), #navy ul li a:hover {
+    color: #dd3333 !important;
+}
+
+/* Footer */
+#wp-calendar caption{
+	background-color: #dd3333;	
+}
+
+#wp-calendar{
+	border: 2px solid #dd3333;
+}
+
+#wp-calendar th{
+	border: 1px solid #dd3333;
+}

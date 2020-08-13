@@ -1,0 +1,90 @@
+# BEGIN LSCACHE
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+<IfModule LiteSpeed>
+RewriteEngine on
+CacheLookup on
+RewriteRule .* - [E=Cache-Control:no-autoflush]
+RewriteRule ^min/\w+\.(css|js) - [E=cache-control:no-vary]
+
+### marker MOBILE start ###
+RewriteCond %{HTTP_USER_AGENT} Mobile|Android|Silk/|Kindle|BlackBerry|Opera\ Mini|Opera\ Mobi [NC]
+RewriteRule .* - [E=Cache-Control:vary=ismobile]
+### marker MOBILE end ###
+
+### marker CACHE RESOURCE start ###
+RewriteRule wp-content/.*/[^/]*(responsive|css|js|dynamic|loader|fonts)\.php - [E=cache-control:max-age=3600]
+### marker CACHE RESOURCE end ###
+
+### marker WEBP start ###
+RewriteCond %{HTTP_ACCEPT} "image/webp" [or]
+RewriteCond %{HTTP_USER_AGENT} "Page Speed"
+RewriteRule .* - [E=Cache-Control:vary=%{ENV:LSCACHE_VARY_VALUE}+webp]
+### marker WEBP end ###
+
+</IfModule>
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+# END LSCACHE
+# BEGIN NON_LSCACHE
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+### marker BROWSER CACHE start ###
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType application/pdf A30
+ExpiresByType image/x-icon A30
+ExpiresByType image/vnd.microsoft.icon A30
+ExpiresByType image/svg+xml A30
+
+ExpiresByType image/jpg A30
+ExpiresByType image/jpeg A30
+ExpiresByType image/png A30
+ExpiresByType image/gif A30
+ExpiresByType image/webp A30
+
+ExpiresByType video/ogg A30
+ExpiresByType audio/ogg A30
+ExpiresByType video/mp4 A30
+ExpiresByType video/webm A30
+
+ExpiresByType text/css A30
+ExpiresByType text/javascript A30
+ExpiresByType application/javascript A30
+ExpiresByType application/x-javascript A30
+
+ExpiresByType application/x-font-ttf A30
+ExpiresByType application/x-font-woff A30
+ExpiresByType application/font-woff A30
+ExpiresByType application/font-woff2 A30
+ExpiresByType application/vnd.ms-fontobject A30
+ExpiresByType font/ttf A30
+ExpiresByType font/woff A30
+ExpiresByType font/woff2 A30
+
+</IfModule>
+### marker BROWSER CACHE end ###
+
+### marker MINIFY start ###
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} ^(.*)/min/(\w+)\.(css|js)$
+RewriteCond %1/wp-content/cache/$2/$1.$2 -f
+RewriteRule min/(\w+)\.(css|js) wp-content/cache/$2/$1.$2 [L]
+</IfModule>
+### marker MINIFY end ###
+
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+# END NON_LSCACHE
+
+# BEGIN WordPress
+# The directives (lines) between `BEGIN WordPress` and `END WordPress` are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

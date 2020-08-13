@@ -1,0 +1,446 @@
+
+/* Add an element box */
+.pagelayer-add-ele{
+display:block;
+vertical-align:middle;
+text-align:center;
+border:1px dashed #4a4949;
+min-height:60px;
+padding:5px;
+color:#4f4f4f;
+font-size: 16px;
+line-height: 1.5;
+}
+
+.pagelayer-add-ele .fa{
+font-size:15px;
+color:#4a4949;
+cursor:pointer;
+}
+
+.pagelayer-add-ele .fa:hover:before{
+color:#3e8ef7;
+}
+
+.pagelayer-add-ele span,
+.pagelayer-add-widget-area p{
+font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.pagelayer-empty-col{
+display:table-cell;
+}
+
+.pagelayer-row{
+min-height:20px;
+}
+
+/* Since we have a wrap, we set the cols to the wrap. Hence we need to make the width of the real thing to 100% */
+.pagelayer-ele-wrap>.pagelayer-col{
+width:100%;
+}
+
+.pagelayer-ele-wrap{
+position: relative;
+}
+
+/*.pagelayer-ele-option{
+min-height: 10px;
+} */
+
+.pagelayer-wrap-col{
+align-content: unset !important;
+}
+
+.pagelayer-ele-overlay{
+position: absolute;
+width: 100%;
+height: 100%;
+right: 0px;
+top: 0px;
+z-index: 10;
+pointer-events:none;
+opacity: 0%;
+outline-width:0px;
+}
+
+.pagelayer-ele-hover, .pagelayer-drag-ele-hover{/* Both classes are same. but its just that during drag, we use the later */
+outline:1px solid #a8a8a8;
+opacity: 100%;
+transition: transform 0.2s linear, opacity 0.2s linear;
+}
+
+.pagelayer-active{
+outline:1px solid #999;
+opacity: 100%;
+}
+
+.pagelayer-hide-active{
+outline: transparent !important;
+}
+
+.pagelayer-row-hover{
+outline:1px solid #277CF9;
+}
+
+.pagelayer-col-hover{
+outline:1px solid #42ADE1;
+}
+
+.pagelayer-ele-option,
+.pagelayer-row-option,
+.pagelayer-col-option{
+position: absolute;
+top:0px;
+right:0px;
+z-index: 20;
+padding:0px;
+margin:0px;
+line-height: 0;
+pointer-events:auto;
+}
+
+.pagelayer-eoi{
+display:inline-block !important;
+font-size:12px !important;
+padding:4px !important;
+background:#444;
+color:#fff;
+}
+
+.pagelayer-eoi:hover{
+background:#222;
+cursor: pointer;
+}
+
+.pagelayer-row-option{
+top:-20px;
+left:calc(50% - 63px/2);
+z-index: 30;
+}
+
+.pagelayer-row-option-zero>.pagelayer-wrap-row:first-child>.pagelayer-ele-overlay .pagelayer-row-option{
+top:0;
+}
+
+.pagelayer-row-option .pagelayer-eoi{
+background:#277CF9;
+}
+
+.pagelayer-row-option .pagelayer-eoi:hover{
+background:#1c59b3;
+}
+
+.pagelayer-col-option .pagelayer-eoi{
+background:#42ADE1;
+}
+
+.pagelayer-col-option .pagelayer-eoi:hover{
+background:#1070AA;
+}
+
+.pagelayer-col-option{
+top:0px;
+left:0px;
+z-index: 30;
+width: 21px;
+}
+
+.pagelayer-splash{
+background-image:url(../images/splash.png);
+height:30px;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.pagelayer-space-holder{
+background:url(../images/space.png);
+background-repeat:repeat;
+}
+
+.pagelayer-anchor{
+background-image:url(../images/anchor.png);
+height:30px;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+/* Right Click */
+.pagelayer-right-click-options{
+position:absolute;
+background:#e9eaea;
+border-radius: 2px;
+box-shadow: 0 0 5px rgba(0,0,0,0.1);
+z-index: 10;
+border: 1px solid rgba(0,0,0,0.2);
+min-width:135px;
+/*max-width:170px;*/
+}
+
+.pagelayer-right-click-options ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.pagelayer-right-click-options a{
+color: #4a4949;
+padding: 8px 10px;
+width: 100%;
+display: block;
+transition: all 0.2s;
+white-space:nowrap;
+}
+
+.pagelayer-right-click-options a .fa{
+margin-right: 5px;
+}
+
+.pagelayer-right-click-options a:hover{
+background: #449D44;
+color:#fff;
+}
+
+.pagelayer-right-click-options li{
+border-bottom: 1px solid rgb(236, 236, 236);
+font-size: 12px;
+font-family: Opensans, arial;
+cursor:pointer;
+}
+
+.pagelayer-right-click-options .pagelayer-right-delete:hover {
+background:#EF4D4D;
+}
+
+@media (min-width: 769px){
+	.pagelayer-hide-desktop{
+		display:initial;
+		filter:blur(3px);
+	}
+}
+
+@media (max-width: 768px) and (min-width: 361px){
+	.pagelayer-hide-tablet{
+		display:initial;
+		filter:blur(3px);
+	}
+}
+
+@media (max-width: 360px){
+	.pagelayer-hide-mobile{
+		display:initial;
+		filter:blur(3px);
+	}
+}
+
+/* Pagelayer add section area */
+
+.pagelayer-add-widget-area{
+padding: 10px;
+width:100%;
+text-align: center;
+border: 2px #3e8ef7;
+border-style: dashed;
+position:relative;
+font-family: "Open Sans", Arial,Helvetica,sans-serif;
+margin:20px auto;
+}
+
+.pagelayer-add-widget-area .pagelayer-add-button{
+font-size: 14px;
+font-weight: bold;
+border: 1px solid #007bff;
+background-color: #007bff;
+color:#fff;
+border-radius:5px;
+padding:9px;
+margin-right:5px;
+cursor:pointer;
+display:inline-block;
+}
+
+.pagelayer-add-widget-area .pagelayer-add-button:hover{
+border: 1px solid #0069d9;
+background-color: #0069d9;
+}
+
+.pagelayer-add-widget-area .pagelayer-add-section{
+border: 1px solid #17a2b8;
+background-color: #17a2b8;
+}
+
+.pagelayer-add-widget-area .pagelayer-add-section:hover{
+border: 1px solid #138496;
+background-color: #138496;
+}
+
+.pagelayer-add-widget-area p{
+margin: 0px !important;
+color:#4f4f4f;
+font-size: 20px;
+line-height: 1.8;
+}
+
+.pagelayer-add-widget-drag{
+border-color: #111111;
+background: #c4d2de;
+}
+
+/* Pagelayer Drag stuff */
+
+.pagelayer-is-dragging{
+opacity: 0.33;
+transition:0.1s;
+}
+
+.pagelayer-drag-show{
+position:absolute;
+top:0px;
+left:0px;
+display:none;
+background: blue;
+z-index:1000;
+}
+
+.pagelayer-drag-prospect{
+height:1px;
+background:#00BCD4;
+z-index: 1000;
+width: 100%;
+}
+
+.pagelayer-drag-prospect-col{
+position: absolute;
+top: 0px;
+width: 1px;
+height: 100% !important;
+}
+
+/* Column resize handler icon */
+.pagelayer-resize-handler{
+position:absolute;
+top:50%;
+left:100%;
+transform: translate(-43%, -50%);
+color: #fff;
+font-size: 11px;
+z-index: 99;
+cursor:ew-resize;
+display:none;
+pointer-events: all;
+}
+
+.pagelayer-resize-icon{
+background-color: #42ADE1;
+padding: 3px;
+border-radius: 4px;
+height:30px;
+display:inline-block;
+}
+
+.pagelayer-resize-handler:before{
+content:attr(pre-width);
+background: #4f4f4f;
+position: absolute;
+right: 120%;
+top: 50%;
+transform: translateY(-50%);
+padding: 0 6px;	
+border-radius:100%;
+}
+
+.pagelayer-resize-handler:after{
+content:attr(next-width);
+background: #4f4f4f;
+position: absolute;
+left: 120%;
+top: 50%;
+transform: translateY(-50%);
+padding: 0 6px;	
+border-radius:100%;
+}
+
+/* Hide resize handler icon from last child*/
+.pagelayer-wrap-col:not(:last-child):hover > .pagelayer-ele-hover .pagelayer-resize-handler{
+display:block;
+}
+
+/* Column resize handler icon end */
+
+/* WordPress media box CSS */
+[id^="__wp-uploader"] .screen-reader-text{
+display:none;
+}
+
+[id^="__wp-uploader"] .media-button-select{
+text-transform: uppercase;
+font-weight: 700;
+letter-spacing: 0.046875em;
+}
+/* WordPress media box CSS end */
+
+
+/* image drop zone css start */
+.pagelayer-image-drop-zone{
+position:absolute;
+text-align:center;
+width:100%;
+height:100%;
+z-index:3;
+background-color: #2ea5dff0;
+display:none;
+}
+
+.pagelayer-image-drop-zone *{
+pointer-events:none;
+}
+
+.pagelayer-image-drop-zone > div{
+position: relative;
+top: 50%;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+
+.pagelayer-image-drop-zone div *{
+color:white;
+}
+
+.pagelayer-image-drop-zone div i{
+font-size:50px;
+}
+
+.pagelayer-img-up-progress {
+width: 30%;
+margin-left: auto;
+margin-right: auto;
+background-color: transparent;
+border: 2px solid white;
+border-radius: 30px;
+padding: 3px;
+}
+
+.pagelayer-img-up-bar {
+width: 3%;
+height: 7px;
+background-color: white;
+line-height: 7px;
+text-align: center;
+border-radius: 30px;
+}
+/* image drop zone css start */
+
+.pagelayer-pro-req{
+font-size: 10px;
+padding: 2px 4px;
+display: inline-block;
+background-color: #e63131;
+color: #fff;
+margin-left: 4px;
+border-radius: 2px;
+cursor: pointer;
+}

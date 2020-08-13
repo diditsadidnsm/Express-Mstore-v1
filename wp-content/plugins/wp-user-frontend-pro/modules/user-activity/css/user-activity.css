@@ -1,0 +1,68 @@
+.wpuf-profile-container {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+
+ul.wpuf-profile-tabs {
+    width: 100%;
+    background-color: #4d4d4d;
+    list-style: none;
+    border-style: none;
+    margin: 0px 0px 10px 0px;
+}
+
+ul.wpuf-profile-tabs li {
+    display: inherit;
+    width: auto;
+    height: auto;
+    color: #ededed;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: auto;
+    cursor: pointer;
+    border-style: none;
+}
+
+ul.wpuf-profile-tabs li.current {
+    background: rgba(0, 0, 0, 0.3);
+    color: #ededed;
+    border-style: none;
+}
+
+.wpuf-profile-tab-content {
+    display: none;
+    width: auto;
+    height: auto;
+    background: inherit;
+}
+
+.wpuf-profile-tab-content.current {
+    display: inherit;
+    width: auto;
+    height: auto;
+    background: inherit;
+}
+
+.wpuf-activity-table {
+    display: inherit;
+}
+
+.wpuf-activity-date {
+    background: #D3D3D3;
+    font-weight: 500;
+    margin: 5px;
+    padding: 5px;
+    vertical-align: center;
+}
+
+.wpuf-activity-column {
+    font-weight: 400;
+    margin: 5px; 
+    padding: 5px; 
+    display: table-cell; 
+    vertical-align: top; 
+    border: 2px; 
+    border-bottom-style:hidden;
+ }
+
